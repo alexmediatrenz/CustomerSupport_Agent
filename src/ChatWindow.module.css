@@ -1,0 +1,111 @@
+.chatContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: center;
+}
+
+.chatHistory {
+  flex: 1;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+.message {
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 80%;
+}
+
+.user {
+  background-color: #007bff;
+  color: white;
+  align-self: flex-end;
+}
+
+.bot {
+  background-color: #e0e0e0;
+  align-self: flex-start;
+}
+
+.quickReplies {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.quickReplies button {
+  padding: 8px 16px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.quickReplies button:hover {
+  background-color: #e0e0e0;
+}
+
+.inputArea {
+  display: flex;
+  padding: 10px;
+}
+
+.inputArea input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.inputArea button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.inputArea button:hover {
+  background-color: #0056b3;
+}
+
+.typingIndicator {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+}
+
+.typingIndicator span {
+  width: 10px;
+  height: 10px;
+  background-color: #ccc;
+  border-radius: 50%;
+  margin: 0 2px;
+  animation: bounce 1.4s infinite ease-in-out;
+}
+
+.typingIndicator span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.typingIndicator span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes bounce {
+  0%, 80%, 100% {
+    transform: scale(0);
+  }
+  40% {
+    transform: scale(1);
+  }
+}
