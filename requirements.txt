@@ -2,6 +2,5 @@ flask==3.0.0
 openai==1.10.0
 # Note: The Agno framework is required for this project but is hypothetical here.
 # In a real scenario, replace with the actual package (e.g., agno==x.x.x) or implement as a custom module.
-npx create-react-app customer-support-frontend;
 cd customer-support-frontend
 npm install uuid
