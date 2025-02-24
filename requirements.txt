@@ -1,18 +1,4 @@
-To run this project, we need the following dependencies. Since Agno is hypothetical, I’ll include typical packages that align with the assumed functionality.
-requirements.txt
-
-< flask==3.0.0
-# Hypothetical Agno framework (replace with actual package if available)
-# agno==x.x.x
-# OpenAI API for GPT-4 (assuming Agno integrates with it)
-openai==1.10.0>
-
-Install these 
-pip install -r requirements.txt
-
-Note: In reality, you’d need the exact Agno package and possibly additional dependencies (e.g., lancedb for a vector database).
-
-Run the Flask app (python app.py) and use a tool like curl or Postman to test:
-bash
-
-curl -X POST -H "Content-Type: application/json" -d '{"conversation_id": "test1", "message": "What services does Mediatrenz offer?"}' http://localhost:5000/chat
+flask==3.0.0
+openai==1.10.0
+# Note: The Agno framework is required for this project but is hypothetical here.
+# In a real scenario, replace with the actual package (e.g., agno==x.x.x) or implement as a custom module.
