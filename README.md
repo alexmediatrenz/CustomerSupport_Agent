@@ -34,7 +34,7 @@ Prepare structured question-answer pairs or documents covering common customer q
 Q: What services does Mediatrenz offer?
 A: Mediatrenz offers SEO, PPC advertising, social media management, content marketing, and email marketing.
 Q: How can I contact customer support?
-A: You can contact our customer support team via email at support@mediatrenz.com or by phone at 1-800-123-4567.
+A: You can contact our customer support team via email at john@mediatrenz.com or by phone at 1-302-918-5473
 Store this information in a text file (e.g., faqs.txt) or a vector database, depending on the implementation.
 Load the Knowledge Base:
 Use Agno's knowledge base tools to load the information. For a text file, you might use a class like TextFileKnowledgeBase (refer to the Agno documentation for specifics).
